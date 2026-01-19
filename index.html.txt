@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>План Дияра Мамутова | ИИ-автоматизация Алматы</title>
+<style>
+:root{--bg:#111;--surface:#1a1a1a;--primary:#00f2ff;--text:#eee;--muted:#888;--radius:12px;--trans:.3s ease;}
+*{box-sizing:border-box;margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+body{background:var(--bg);color:var(--text);line-height:1.6;}
+header{background:var(--surface);padding:2rem 0;text-align:center;}
+h1{font-size:2rem;letter-spacing:-.5px;margin-bottom:.5rem;}
+h2{color:var(--primary);margin:2rem 0 1rem;border-bottom:1px solid var(--muted);padding-bottom:.5rem;}
+p{margin-bottom:1rem;color:var(--muted);}
+.container{width:90%;max-width:800px;margin:auto;}
+section{background:var(--surface);border-radius:var(--radius);padding:1.5rem;margin-bottom:1.5rem;}
+ul{margin-left:1.2rem;}
+li{margin-bottom:.5rem;}
+a{color:var(--primary);text-decoration:none;transition:var(--trans);}
+a:hover{opacity:.8;}
+.btn{display:inline-block;background:var(--primary);color:#000;padding:.75rem 1.5rem;border-radius:var(--radius);font-weight:600;margin-top:1rem;}
+footer{text-align:center;padding:2rem 0;color:var(--muted);font-size:.9rem;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>План Дияра Мамутова</h1>
+    <p>Автоматизация бизнеса и интеграция ИИ-агентов в Алматы | Январь 2026</p>
+  </div>
+</header>
+
+<main class="container">
+  <section>
+    <h2>🎯 Цель проекта</h2>
+    <p>До 1 апреля 2026 выйти на 1 000 $ MRR «(=регулярный доход в месяц)», имея 3 платящих клиента и 1 голосового ИИ-агента, который автоматизирует рутину в 1С, Excel, e-mail и мессенджерах.</p>
+  </section>
+
+  <section>
+    <h2>📊 Рынок 2026</h2>
+    <ul>
+      <li>AI-SANA: 100 000 студентов и 1 500 стартапов выйдут на акселерацию.</li>
+      <li>Закон РК «Об ИИ» (18.01.26) требует помечать ИИ-ответ и хранить логи ≥ 1 год.</li>
+      <li>Astana Hub выделяет 5-30 млн тенге на пилоты.</li>
+      <li>Средняя цена автоматизации 1 процесса в Алматы: 600-900 $/мес.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🔗 Связка «Голос → Claude → n8n → 1С»</h2>
+    <ul>
+      <li><strong>LiveKit/OpenAI RT</strong> «(=перевод речи в текст за 0,3 с)»</li>
+      <li><strong>Claude Code</strong> «(=письмо-кодер, который генерирует команды)»</li>
+      <li><strong>n8n</strong> «(=бесплатный оркестратор автоматизаций)»</li>
+      <li><strong>1С HTTP/API</strong> «(=безопасный доступ к бухгалтерии)»</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>📅 12-недельный роад-map</h2>
+    <table style="width:100%;border-collapse:collapse;margin-top:1rem;">
+      <thead><tr style="border-bottom:1px solid var(--muted);">
+        <th style="padding:.5rem;text-align:left;">Неделя</th><th style="padding:.5rem;text-align:left;">Что делаем</th><th style="padding:.5rem;text-align:left;">Ключевые метрики</th>
+      </tr></thead>
+      <tbody>
+        <tr><td style="padding:.5rem;">0</td><td style="padding:.5rem;">Регистрируем ИП/ТОО, домен, VPS</td><td style="padding:.5rem;">0 клиентов, 0 $</td></tr>
+        <tr><td style="padding:.5rem;">1</td><td style="padding:.5rem;">Docker, n8n, LiveKit, SSL</td><td style="padding:.5rem;">Uptime локального стенда</td></tr>
+        <tr><td style="padding:.5rem;">2</td><td style="padding:.5rem;">5 голосовых команд → 1С</td><td style="padding:.5rem;">Latency ≤ 2 с</td></tr>
+        <tr><td style="padding:.5rem;">3</td><td style="padding:.5rem;">Съёмка демо-ролика</td><td style="padding:.5rem;">3 лида</td></tr>
+        <tr><td style="padding:.5rem;">4</td><td style="padding:.5rem;">Пилот 30 дней, 150 $</td><td style="padding:.5rem;">1 клиент, 95 % uptime</td></tr>
+        <tr><td style="padding:.5rem;">5-8</td><td style="padding:.5rem;">Эксплуатация, улучшения</td><td style="padding:.5rem;">2 рефералки</td></tr>
+        <tr><td style="padding:.5rem;">9-12</td><td style="padding:.5rem;">Масштаб, цена 500 $</td><td style="padding:.5rem;">3 клиента, 1 000 $ MRR</td></tr>
+      </tbody>
